@@ -29,7 +29,7 @@ namespace sampleSignalR
 
             app.UseSignalR(routes =>
             {
-                routes.MapHub<MyHub>("myHub");
+                routes.MapHub<MyHub>("/myHub");
             });
 
             app.Run(async (context) =>
