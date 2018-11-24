@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sampleSignalR", "sampleSignalR.csproj", "{946EDEC6-1027-4F24-9D3B-DCAA66E30977}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sampleSignalR", "sampleSignalR\sampleSignalR.csproj", "{E6333043-7BFF-4B9A-B20D-EAB545458F1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F733175-C980-41DA-9306-14E411C95E53}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +16,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{946EDEC6-1027-4F24-9D3B-DCAA66E30977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{946EDEC6-1027-4F24-9D3B-DCAA66E30977}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{946EDEC6-1027-4F24-9D3B-DCAA66E30977}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{946EDEC6-1027-4F24-9D3B-DCAA66E30977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6333043-7BFF-4B9A-B20D-EAB545458F1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6333043-7BFF-4B9A-B20D-EAB545458F1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6333043-7BFF-4B9A-B20D-EAB545458F1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6333043-7BFF-4B9A-B20D-EAB545458F1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {13CC1FB8-0F57-45F7-94ED-02C045FD2581}
+		SolutionGuid = {7CFB69B2-D6A1-4FDE-A5F2-802945F7E31B}
 	EndGlobalSection
 EndGlobal

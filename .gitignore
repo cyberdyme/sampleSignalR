@@ -1,4 +1,1 @@
-.vs/*
-obj/*
-bin/*
-/sampleSignalR.csproj.user
+.vs/
